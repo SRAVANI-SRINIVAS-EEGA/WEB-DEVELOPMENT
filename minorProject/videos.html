@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="nav_container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary nav_bar">
+        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+        <!-- Toggle button for mobile view -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse nav_links" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item ">
+                    <a class="nav-link " href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="choreographer.html">Choreographer</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="feesStudioRental.html">Fees & Studio Rental</a>
+                </li>
+                
+                <!-- Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="typesOfDances.html" id="navbarDropdownDancesLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Types of Dances
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownDancesLink">
+                        <a class="dropdown-item" href="typesOfDances.html#classical_dance">Classical</a>
+                        <a class="dropdown-item" href="typesOfDances.html#hiphop_dance">Hip Hop</a>
+                        <a class="dropdown-item" href="typesOfDances.html#ballet_dance">Ballet</a>
+                        <a class="dropdown-item" href="typesOfDances.html#belly_dance">Belly</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="gallery.html" id="navbarDropdownGalleryLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Gallery
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownGalleryLink">
+                        <a class="dropdown-item" href="gallery.html#workshop_gallery">Workshop</a>
+                        <a class="dropdown-item" href="gallery.html#studio_gallery">Studio Gallery</a>
+                        <a class="dropdown-item" href="gallery.html#wedding_gallery">Wedding Gallery</a>
+                        <a class="dropdown-item" href="gallery.html#action_gallery">Action Gallery</a>
+                        <a class="dropdown-item" href="gallery.html#classes_gallery">Classes</a>
+                    </div>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="videos.html">Videos</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="register.html">Register</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    </div>
+    <div class="space"></div>
+    
+
+
+<!-- Videos Section -->
+<div class="video-container">
+    <div class="video-grid">
+         <!-- <h2>Classical</h2> -->
+         <!-- Video 1 -->
+        <div class="video-card">
+            <iframe width="500" height="350"  src="https://www.youtube.com/embed/JWhA3ldZcyY?si=SqOpPlRYUK8l0eSI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <h5>Classical</h5>
+        </div>
+        
+        <!-- Video 2 -->
+        <div class="video-card">
+            <iframe width="500" height="350"  src="https://www.youtube.com/embed/TdYWOr12ONU" title="Vahana Alarippu: Bharatanatyam Dance | Best of Indian Classical Dance" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <h5>Classical</h5>
+        </div>
+
+        <!-- Video 3 -->
+        <div class="video-card">
+            <iframe  width="500" height="350"  src="https://www.youtube.com/embed/SJhKfU_AUeM" title="Kolkata से आई एक Dancing Sensation! | Super Dancer 4 | सुपर डांसर 4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <h5>Classical</h5>
+        </div>
+    </div>
+
+    <div class="video-grid">
+        <!-- <h2>Ballet</h2> -->
+        <!-- Video 1 -->
+       <div class="video-card">
+        <iframe  width="500" height="350"  src="https://www.youtube.com/embed/zV1qLYukTH8" title="Dance of the Sugar Plum Fairy from The Nutcracker (The Royal Ballet)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+           <h5>Ballet</h5>
+       </div>
+       
+       <!-- Video 2 -->
+       <div class="video-card">
+        <iframe  width="500" height="350"  src="https://www.youtube.com/embed/UYaIQNjAX_8" title="The Nutcracker – The Waltz of the Snowflakes (The Royal Ballet)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <h5>Ballet</h5>
+       </div>
+
+       <!-- Video 3 -->
+       <div class="video-card">
+        <iframe width="500" height="350" src="https://www.youtube.com/embed/UYaIQNjAX_8" title="The Nutcracker – The Waltz of the Snowflakes (The Royal Ballet)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <h5>Ballet</h5>
+       </div>
+   </div>
+   
+<!-- 
+   <div class="video-grid">
+        <h2>Hip-Hop</h2>
+        <div class="video-card">
+            <iframe width="696" height="392" src="https://www.youtube.com/embed/zN8Vo_2xO-Q" title="Calm Down Dance - Rema | Choreography - Skool of hip hop" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <h5>Video Title 1</h5>
+            <p>A brief description of the first dance video.</p>
+        </div>
+        
+        <div class="video-card">
+            <iframe  src="https://www.youtube.com/embed/RFfbZV3bwys" title="15 MIN HYPE DANCE WORKOUT - Follow Along/No Equipment" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <h5>Video Title 2</h5>
+            <p>Short description of the second dance video.</p>
+        </div>
+
+        <div class="video-card">
+            <iframe  src="https://www.youtube.com/embed/gbWYS6sULx0" title="Shape of You Carnatic | Indian Contemporary | Amit Patel | Indian Raga" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <h5>Video Title 3</h5>
+            <p>Description of the third dance video.</p>
+        </div>
+    </div> -->
+
+
+
+</div>
+
+
+
+
+<footer class="footer1">
+    <div class="copyright">
+        <p>&copy; 2024 Dance Academy. All Rights Reserved.</p>
+        <input type="text" placeholder="Search here.." id="search">
+    </div>
+    <ul class="footer_links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="typesOfDances.html">Types of Dances</a></li>
+        <li><a href="choreographer.html">Choreographer</a></li>
+        <li><a href="feesStudioRental.html">Fee & Studio Rental</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="videos.html">Videos</a></li>
+    </ul>
+    <ul class="social_links">
+        <li><a href="https://www.instagram.com/">Instagram</a></li>
+        <li><a href="https://www.facebook.com/">Facebook</a></li>
+        <li><a href="https://www.twitter.com">Twitter</a></li>
+    </ul>
+</footer>
+
+
+<!-- Bootstrap JS, Popper.js -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+</body>
+</html>

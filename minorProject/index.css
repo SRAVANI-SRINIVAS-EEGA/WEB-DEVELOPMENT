@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.imga{
+    width: 60px;
+    height: 40px;
+}
+.titlelog{
+ width: 50px;
+
+}
+#na:hover{
+    background-color:rgb(84, 73, 73) !important ;
+}
+.bor:hover{
+    background-color: rgb(84, 73, 73);
+    border:1px solid rgb(30, 27, 27);
+    border-radius: 8px;
+    margin-bottom: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    color :white;
+
+}
+.bor{
+    background-color: darkgrey ;
+    border:1px solid white;
+    border-radius: 8px;
+    margin-bottom: 2px;
+    
+    color: black;
+    text-align: center;
+}
+.ima{
+    width: 20px;
+    height: 20px;
+}
+#de{
+    text-align: center;
+    display: inline-block;
+}
+.an:hover{
+    background-color: blue;
+    color:white !important;
+    text-align: center !important;
+    border:1px solid blue;
+    border-radius: 15px;
+    margin-right: 3px !important;
+    margin-left: 6px !important;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    padding-left: 8px !important;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+}

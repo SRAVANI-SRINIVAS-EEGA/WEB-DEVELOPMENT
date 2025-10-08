@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="nav_container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary nav_bar">
+        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+        <!-- Toggle button for mobile view -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse nav_links" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item ">
+                    <a class="nav-link " href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="choreographer.html">Choreographer</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="feesStudioRental.html">Fees & Studio Rental</a>
+                </li>
+                
+                <!-- Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="typesOfDances.html" id="navbarDropdownDancesLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Types of Dances
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownDancesLink">
+                        <a class="dropdown-item" href="typesOfDances.html#classical_dance">Classical</a>
+                        <a class="dropdown-item" href="typesOfDances.html#hiphop_dance">Hip Hop</a>
+                        <a class="dropdown-item" href="typesOfDances.html#ballet_dance">Ballet</a>
+                        <a class="dropdown-item" href="typesOfDances.html#belly_dance">Belly</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="gallery.html" id="navbarDropdownGalleryLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Gallery
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownGalleryLink">
+                        <a class="dropdown-item" href="gallery.html#workshop_gallery">Workshop</a>
+                        <a class="dropdown-item" href="gallery.html#studio_gallery">Studio Gallery</a>
+                        <a class="dropdown-item" href="gallery.html#wedding_gallery">Wedding Gallery</a>
+                        <a class="dropdown-item" href="gallery.html#action_gallery">Action Gallery</a>
+                        <a class="dropdown-item" href="gallery.html#classes_gallery">Classes</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="videos.html">Videos</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="register.html">Register</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    </div>
+    <div class="space"></div>
+    
+
+<div class="about_data">
+    <p>Here, we believe in the transformative power of dance. Founded in 2000, our studio has become a vibrant hub where passion, creativity, and community come together. Whether you're looking to refine your skills, explore a new dance style, or simply find a fun way to stay active, our expert instructors are here to guide you every step of the way. We offer a wide range of classes, including classical, ballet, hip-hop, belly dance, and more, for dancers of all ages and experience levels. Our state-of-the-art facility is designed to provide a comfortable and inspiring space for learning, practice, and performance. Join us and experience the joy of movement in a welcoming, inclusive environment.</p>
+</div>
+
+
+<div class="choreographer_data">
+    <h2>Dance Style and Choreographer</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Dance Style</th>
+                <th>Choreographer</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Classical</td>
+                <td>Martha Graham</td>
+                <td>Pioneered modern dance, expressing deep emotions through a unique style.</td>
+            </tr>
+            <tr>
+                <td>Classical</td>
+                <td>Mikhail Baryshnikov</td>
+                <td>Known for exceptional ballet technique and artistic expression.</td>
+            </tr>
+            <tr>
+                <td>Classical</td>
+                <td>George Balanchine</td>
+                <td>Founder of the New York City Ballet, major figure in 20th-century ballet.</td>
+            </tr>
+            <tr>
+                <td>Ballet</td>
+                <td>Anna Pavlova</td>
+                <td>Celebrated ballerina, famous for her role in "The Dying Swan."</td>
+            </tr>
+            <tr>
+                <td>Ballet</td>
+                <td>Rudolf Nureyev</td>
+                <td>Renowned for passionate performances and ballet choreography.</td>
+            </tr>
+            <tr>
+                <td>Belly Dance</td>
+                <td>Jillina</td>
+                <td>Internationally acclaimed for her innovative approach to belly dance.</td>
+            </tr>
+            <tr>
+                <td>Belly Dance</td>
+                <td>Maha El Moussa</td>
+                <td>Famous in Middle Eastern dance, focusing on cultural authenticity.</td>
+            </tr>
+            <tr>
+                <td>Hip-Hop</td>
+                <td>Kenrick Sandy</td>
+                <td>Prominent figure in hip-hop, co-founder of Boy Blue Entertainment.</td>
+            </tr>
+            <tr>
+                <td>Hip-Hop</td>
+                <td>Poppin' John</td>
+                <td>Renowned for his popping dance style, internationally recognized.</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<div class="achievements_data">
+    <h2>Achievements & Awards</h2>
+    <ul>
+        <li>2023 Best Dance Studio Award from the National Dance Association</li>
+        <li>2019 Regional Dance Competition Champion - Group Performance</li>
+        <li>2020 Best Instructor Award - Jane Doe for Excellence in Teaching</li>
+        <li>2022 Top Performer in National Dance Festival - Hip Hop Category</li>
+        <li>2021 Community Engagement Award for Dance Outreach Programs</li>
+    </ul>
+</div>
+
+
+
+<footer class="footer1">
+    <div class="copyright">
+        <p>&copy; 2024 Dance Academy. All Rights Reserved.</p>
+        <input type="text" placeholder="Search here.." id="search">
+    </div>
+    <ul class="footer_links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="typesOfDances.html">Types of Dances</a></li>
+        <li><a href="choreographer.html">Choreographer</a></li>
+        <li><a href="feesStudioRental.html">Fee & Studio Rental</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="videos.html">Videos</a></li>
+    </ul>
+    <ul class="social_links">
+        <li><a href="https://www.instagram.com/">Instagram</a></li>
+        <li><a href="https://www.facebook.com/">Facebook</a></li>
+        <li><a href="https://www.twitter.com">Twitter</a></li>
+    </ul>
+</footer>
+
+
+<!-- Bootstrap JS, Popper.js -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+</body>
+</html>

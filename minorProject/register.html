@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="nav_container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary nav_bar">
+        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+        <!-- Toggle button for mobile view -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse nav_links" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item ">
+                    <a class="nav-link " href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="choreographer.html">Choreographer</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="feesStudioRental.html">Fees & Studio Rental</a>
+                </li>
+                
+                <!-- Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="typesOfDances.html" id="navbarDropdownDancesLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Types of Dances
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownDancesLink">
+                        <a class="dropdown-item" href="typesOfDances.html#classical_dance">Classical</a>
+                        <a class="dropdown-item" href="typesOfDances.html#hiphop_dance">Hip Hop</a>
+                        <a class="dropdown-item" href="typesOfDances.html#ballet_dance">Ballet</a>
+                        <a class="dropdown-item" href="typesOfDances.html#belly_dance">Belly</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="gallery.html" id="navbarDropdownGalleryLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Gallery
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownGalleryLink">
+                        <a class="dropdown-item" href="gallery.html#workshop_gallery">Workshop</a>
+                        <a class="dropdown-item" href="gallery.html#studio_gallery">Studio Gallery</a>
+                        <a class="dropdown-item" href="gallery.html#wedding_gallery">Wedding Gallery</a>
+                        <a class="dropdown-item" href="gallery.html#action_gallery">Action Gallery</a>
+                        <a class="dropdown-item" href="gallery.html#classes_gallery">Classes</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="videos.html">Videos</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="register.html">Register</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    </div>
+    <div class="space"></div>
+    
+
+    <div class="register_container">
+        <h2 class="text-center">Register</h2>
+        <form action="index.html" >
+            <!-- Full Name -->
+            <div class="form-group">
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" class="form-control" placeholder="Enter your full name" required>
+            </div>
+    
+            <!-- Email -->
+            <div class="form-group">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" class="form-control" placeholder="Enter your email" required>
+            </div>
+    
+            <!-- Age -->
+            <div class="form-group">
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" class="form-control" placeholder="Enter your age" min="1" required>
+            </div>
+    
+            <!-- Gender -->
+            <fieldset class="form-group">
+                <legend>Gender:</legend>
+                <div class="form-check form-check-inline">
+                    <input type="radio" id="male" name="gender" value="male" class="form-check-input" required>
+                    <label for="male" class="form-check-label">Male</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" id="female" name="gender" value="female" class="form-check-input" required>
+                    <label for="female" class="form-check-label">Female</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" id="other" name="gender" value="other" class="form-check-input" required>
+                    <label for="other" class="form-check-label">Other</label>
+                </div>
+            </fieldset>
+    
+            <!-- Dance Style Selection -->
+            <div class="form-group">
+                <label for="dance_style">Select Your Dance Style:</label>
+                <select id="dance_style" name="dance_style" class="form-control" required>
+                    <option value="" disabled selected>Select your dance style</option>
+                    <option value="classical">Classical</option>
+                    <option value="hiphop">Hip Hop</option>
+                    <option value="ballet">Ballet</option>
+                    <option value="belly">Belly</option>
+                    <option value="contemporary">Contemporary</option>
+                </select>
+            </div>
+    
+            <!-- Fee -->
+            <div class="form-group">
+                <label for="fee">Fee:</label>
+                <input type="text" name="fee" id="fee" class="form-control" disabled placeholder=" Rs. 0">
+            </div>
+    
+            <!-- Terms and Conditions -->
+            <div class="form-check mb-3">
+                <input type="checkbox" id="terms" name="terms" class="form-check-input" required>
+                <label for="terms" class="form-check-label">I agree to the terms and conditions</label>
+            </div>
+    
+            <!-- Buttons -->
+            <div class="form-group text-center">
+                <button type="submit" class="btn btn-primary" onclick="sendToWhatsApp()">Register</button>
+                <button type="reset" class="btn btn-secondary">Reset</button>
+            </div>
+        </form>
+    </div>
+
+    
+
+
+    <footer class="footer1">
+        <div class="copyright">
+            <p>&copy; 2024 Dance Academy. All Rights Reserved.</p>
+            <input type="text" placeholder="Search here.." id="search">
+        </div>
+        <ul class="footer_links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="typesOfDances.html">Types of Dances</a></li>
+            <li><a href="choreographer.html">Choreographer</a></li>
+            <li><a href="feesStudioRental.html">Fee & Studio Rental</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="videos.html">Videos</a></li>
+        </ul>
+        <ul class="social_links">
+            <li><a href="https://www.instagram.com/">Instagram</a></li>
+            <li><a href="https://www.facebook.com/">Facebook</a></li>
+            <li><a href="https://www.twitter.com">Twitter</a></li>
+        </ul>
+    </footer>
+
+<script>
+function sendToWhatsApp() {
+    // Get values from form fields
+    var fullname = document.getElementById("fullname").value;
+    var email = document.getElementById("email").value;
+    var age = document.getElementById("age").value;
+    var gender = document.querySelector('input[name="gender"]:checked').value;
+    var danceStyle = document.getElementById("dance_style").value;
+
+    // Create message with the user input
+    var message = "Hello, I would like to register. Here are my details:\n" +
+                  "Full Name: " + fullname + "\n" +
+                  "Email: " + email + "\n" +
+                  "Age: " + age + "\n" +
+                  "Gender: " + gender + "\n" +
+                  "Dance Style: " + danceStyle;
+
+    // WhatsApp link with prefilled message
+    var whatsappLink = "https://api.whatsapp.com/send?phone=918074967124&text=" + encodeURIComponent(message);
+
+    // Open WhatsApp with the prefilled message
+    window.open(whatsappLink, '_blank');
+}
+</script>
+
+
+<!-- Bootstrap JS, Popper.js -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
