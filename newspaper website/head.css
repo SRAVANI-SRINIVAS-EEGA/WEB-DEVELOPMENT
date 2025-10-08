@@ -1,0 +1,163 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:blanchedalmond;
+  
+}
+#h{
+border-top: 2px solid rgb(18,150,177);
+border-bottom: 2px solid rgb(18, 150, 177);
+margin-top: 0%;
+padding:60px;
+text-align: center;
+font-size: 45px;
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv-zNXNN_peYeGYz1ojBhmLsrYJYfBomI-vw&s);
+background-repeat: no-repeat;
+ background-size: cover; 
+background-position: top;
+font-style: oblique;
+position: fixed;
+right: 0px;
+width: 100%;
+top:0%;
+
+}
+.st{
+    border:4px rgb(63, 122, 161);
+    border-style: outset ;
+   border-radius: 2px; 
+   
+    width: 300px;
+    height:450px;
+    margin-top: 60px;
+    margin-left: 63px;
+    
+    
+   
+}
+#dt{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:0px;
+    margin-bottom: 10px;
+    padding-top: 250px;
+
+    
+}
+#wr{
+    position: fixed;
+    display: flex;
+justify-content: space-between;
+margin-top: 180px;
+padding-left: 65px;
+padding-top:15px ;
+padding-bottom: 15px;
+border-top:2px solid rgb(191, 172, 172);
+border-bottom:2px solid rgb(197, 172, 172);
+background-color:rgb(200, 196, 196);
+width:100%;
+
+
+
+}
+#date{
+    padding-right: 100px;
+font-size: xx-large;
+
+}
+#dae{
+    font-size:30px ;
+    font-style: italic;
+   
+}
+.head{
+    text-align: center;
+    padding-top: 10px;
+    color: chocolate;
+    text-decoration: none;
+    font-style: oblique;
+    padding-left: 2px;
+    padding-right: 2px;
+
+    
+}
+.head:active{
+    color:rgb(5, 117, 158);
+}
+a{
+    text-decoration: none;
+    color:darkgreen;
+}
+.imgstyle{
+width:285px;
+margin-left: 8px;
+margin-top: 15px;
+}
+.parastyle{
+    text-align: center;
+    margin-top:15px;
+    font-size:17px;
+    color:darkcyan;
+    margin-bottom: 30px;
+}
+a:active{
+    color:aqua;
+}
+#wq{
+    width:600px;
+    margin-left: 500px;
+    margin-top: 300px;
+    margin-bottom: 20px;
+}
+.logo{
+    width:50px;
+    
+}
+#ins{
+    width: 85px;
+}
+#spoti{
+    width: 40px;
+    
+}
+#comfort{
+    
+    text-align: end;
+    position: fixed;
+    bottom: 5px;
+    right:0px;
+}
+#spotify{
+    margin-right: 20px;
+}
+#what{
+    margin-right: 14px;
+}
+#logsty{
+    width: 65px;
+    margin-left: 0px;
+}
+.ho:hover{
+background-color: aqua;
+
+
+}
+.head:hover{
+color:rgb(0, 85, 100);
+}
+a:hover{
+    color: darkblue;
+}
+.zoo{
+margin-left:0%;
+width:75px;
+}
+#fro{
+    display: flex;
+    justify-content: space-around;
+}
+.rem{
+    margin-top: 5000px;
+}

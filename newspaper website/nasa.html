@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nasa launches</title>
+    <link rel="shortcut icon" href="spaceimg.jpeg" type="image/x-icon" >
+    <link rel="stylesheet" href="head.css">
+</head>
+<body>
+    <h1  id="h">THE TIMES INDIA</h1>
+    <div id="wr" >
+        <a href="headlines.html" target="_blank"><img id="logsty" src="images.jpeg"></a>
+        <h1  class="head">SPACEX launches mission to return stranded NASA astronauts</h1>
+        <p id="date"></p>
+    </div>
+    
+    <img  class="imgstyle" id="wq" src="spaceimg.jpeg" alt="image related to news">
+    <p class="parastyle" style="margin-left: 30px;margin-right: 30px;"> SpaceXlaunched a rescue mission on Saturday to retrieve two astronauts, Butch Wilmore and Sunita Williams, who have been stuck at the International Space Station (ISS) after safety concerns grounded their Boeing spacecraft.
+        The mission involves a downsized SpaceX crew sent to bring them home, although their return isn't expected until early next year.
+      
+      The SpaceX capsule rocketed toward orbit to retrieve Wilmore and Williams, after Boeing's Starliner spacecraft returned to Earth empty earlier this month due to a series of technical issues, including thruster problems and helium leaks.</p>
+      <div id="comfort" >
+        <div><a href="https://www.instagram.com/" target="_blank"><img class="logo" id="ins" id src="ins_logo-removebg-preview.png" alt="instagram"></a></div>
+        <div id="spotify"><a href="https://open.spotify.com/" target="_blank"><img class="logo" id="spoti" src="spotifyimg-removebg-preview.png" alt="spotify logo"></a></div>
+        <div id="what"><a href="https://web.whatsapp.com/" target="_blank"><img class="logo" src="whatsapp-removebg-preview.png" alt="whatsapp logo"></a></div>
+        
+        </div>
+        <script>
+       
+          let today = new Date();
+           let options = { weekday: 'long', year: 'numeric', month: 'numeric', day: 'numeric' };
+           let dateAndDay = today.toLocaleDateString(undefined, options);
+           document.getElementById("date").innerHTML = dateAndDay;
+           </script></body>
+</html>
+    
